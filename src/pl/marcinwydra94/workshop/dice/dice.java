@@ -53,11 +53,13 @@ public class dice {
         } else if (typeOfCube.equalsIgnoreCase("D20")) {
             sum = numberOfThrows * (rand.nextInt(20) + 1) + modifier;
             System.out.println("Wynik twojego rzutu to: " + sum);
-        } else if (typeOfCube.equalsIgnoreCase("100")) {
+        } else if (typeOfCube.equalsIgnoreCase("D100")) {
             sum = numberOfThrows * (rand.nextInt(100) + 1) + modifier;
             System.out.println("Wynik twojego rzutu to: " + sum);
         }
-
+        scanCube.close();
+        scanModifier.close();
+        scanThrows.close();
 
     }
 }
