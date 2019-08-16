@@ -1,4 +1,4 @@
-# WRO_JEE_S_08 Warsztat 1
+# WRO_JEE_S_06 Warsztat 1
 
 
 ## Zawartość
